@@ -1,40 +1,104 @@
-AlertOps Expert Guidance
+How to Build an Effective On-Call Schedule
 ========
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+An enterprise can use an on-call schedule that defines who is available to respond to incidents 24/7.
 
-Not One Size Fits All
+Yet, how your enterprise builds and manages its call on call schedule can impact departments and stakeholders across your organization.
+
+When it comes to on call scheduling, your enterprise must plan as much as possible. Fortunately, with the right processes and tools, you can effectively implement and manage an on-call schedule. You can also use this schedule to quickly identify and resolve incidents and prevent them from causing long-lasting damage to your organization and its stakeholders.\
+
+Different Types
+====
+
+Common on-call schedules include:
+
+1. Primary and Secondary
+
+Ensures various team members are notified about an incident as soon as it occurs. If these team members are unavailable, secondary responders are alerted until the incident is resolved.
+
+2. Follow-the-Sun
+
+A follow-the-sun schedule plan ensures team members are alerted based on their time zone. With this on-call schedule, an enterprise can verify round-the-clock coverage is in place that corresponds to team members’ standard business hours. AlertOps’ ability to nest teams within groups allows for easy scheduling capabilities not present in other tools.
+
+3. Bi-Weekly
+
+A bi-weekly schedule involves making team members available to respond to incidents every other week. This type of schedule may include myriad layers in accordance with team members’ tasks and responsibilities.
+
+4. Inverse
+
+An inverse schedule involves alternating team members as primary and secondary responders. It gives an enterprise the flexibility to swap primary and secondary responders as needed.
+
+5. Rotating
+
+A rotating schedule may include changes that take place daily, weekly, or monthly. This type of schedule enables an enterprise to instantly move team members in and out of a rotation. An enterprise may even use a rotating schedule to change out personnel every hour of the day.
+The right schedule varies depending on the enterprise. But, by considering the on-call schedule options at its disposal, an enterprise can find one that minimizes the risk of missed communications that can cause expensive, time-consuming downtime and outages.
+
+Key Tenets of Call Schedule
+====
+To develop an effective schedule, you need to consider a variety of factors, such as:
+1. The Size of Your Team
+
+Regardless of team size, your schedule should make it simple for the right team members to get timely, relevant notifications, and escalate incidents accordingly. AlertOps scheduling provides a unique single-pane view of schedules for multiple teams, making it easy for Managers to view their team’s schedules.
+
+2. Team Location
+
+It is often beneficial to set up an on-call schedule that lets team members manage incidents during normal business hours. That way, on-call team members can receive and respond to notifications during their preferred shifts.
+3. Employee Capabilities
+
+A schedule should ensure that team members who have the skills and experience to deal with incidents. Because, without the right team members on call, your enterprise is unlikely to fully resolve an incident.
+4. Employee Preferences
+
+Your on-call schedule should account for employee preferences. If your enterprise understands what it can do to help on-call team members to perform their best, you can set up schedules that enable these employees to consistently deliver the best results.
+5. Backups
+
+Your on-call schedule should have one or more backups in place. Over time, it can become easier to add backups as a team grows. In this instance, you should keep a close eye on on-call schedules to avoid scheduling certain team members too often; otherwise, you could put these employees at risk of burnout. And when team members do need some time off they can schedule their own Out of Office exceptions and assign a covering person within AlertOps, so managers don’t have to.
+5. Peak Season Scenarios
+
+You will undoubtedly have additional stress placed on your team during high-traffic consumer holidays like Black Friday. Having capabilities that allow for overlapping schedules is key. AlertOps allows for holiday overrides to easily handle “Black Friday” incident management scenarios.
+
+on call schedule
+====
+By collaborating with employees, your enterprise can establish an on-call schedule that meets the needs of its organization and its stakeholders.
+
+The Relationship Between an On-Call Schedule and On-Call Management
 =====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+Along with the aforementioned factors, it is paramount to consider on-call management relative to on-call scheduling.
+It should be easy to access on-call schedules and update them based on team member availability. At the same time, enterprise stakeholders should have no trouble getting in touch with on-call team members, and these team members must be able to seamlessly communicate and collaborate with one another throughout an incident.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+Over time, your enterprise must identify ways to continuously improve its on-call management and scheduling. By maintaining a consistent commitment to improvement, your enterprise can identify ongoing issues and resolve them. Plus, your enterprise can develop and implement on-call schedule best practices.
 
-Automate Processes
+Common Mistakes (and How to Avoid Them)
 ====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+It can be tough to create an call schedule that works well for your enterprise starting on day one. In fact, many on-call schedule problems can arise, such as:
+1. One-Size-Fits-All Approach
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+The call schedule that suits one enterprise may be inadequate for another. So, it is crucial to maintain an open approach with on-call scheduling, as this ensures that your enterprise won’t be locked into an on-call schedule that does not meet the needs of its organization and stakeholders.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+Consider the viewpoints of all stakeholders involved in call scheduling. Ask team members how they prefer to view and manage schedules and give them the flexibility to implement schedules accordingly. Of course, if on-call schedules are ineffective, encourage team members to implement changes and track their results.
+2. Lack of Flexibility
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+There may be times when employees take vacations, are out sick, or unavailable for extended periods. In these cases, schedule should be simple to modify.
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+Provide team members with the flexibility to modify schedules whenever necessary. A schedule should not be set in stone; rather, the schedule is an ongoing work in progress. If team members can adjust the schedule to keep one another up to date, they can avoid missed communications and unresolved incidents.
+3. Overreliance on On-Call Engineers
 
-1 Red Canary 2021 Threat Detection Report
+An on-call engineer is a key contributor to your enterprise’s success. On the other hand, incident notifications may require support from other teams and individuals as well.
+
+Ensure call schedules include the appropriate team members. It may be tempting to include only engineers in schedule, but messages should be routed to any team or team members who can handle them.
+4. No Work-Life Balance
+
+The best team members may be the first ones added to your schedule. They may also face the greatest risk of burnout if they are scheduled too often.
+
+Ensure that schedule accounts for work-life balance. No team member should be at risk of getting alerts at any time during the week. Instead, split up hours on an on-call schedule to help team members avoid burnout.
+
+The Top 10 Incident Management Solutions for 2021 (exigence.io)
+
+Schedule a Demo Now 
+
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/on-call-schedule/
 
 Read more:
 ====
